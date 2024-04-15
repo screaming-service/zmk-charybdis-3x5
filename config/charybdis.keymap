@@ -32,7 +32,7 @@
 &kp TAB           &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &none          &kp GRAVE      &trans         &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp NON_US_BACKSLASH   &kp DEL
 &kp LEFT_CONTROL  &kp NUMBER_5     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &none          &kp PAGE_UP    &trans         &trans            &trans                &kp SEMICOLON          &kp SQT
 &kp LSHFT         &kp NUMBER_9     &kp NUMBER_0  &kp MINUS     &kp EQUAL     &none          &kp PAGE_DOWN  &trans         &kp COMMA         &kp PERIOD            &kp SLASH              &kp ESC
-                                                 &kp trans  &tog 1     &trans         &kp trans      &kp trans
+                                                 &trans      &tog 1     &trans         &trans      &trans
                                                                &none         &none          &trans
             >;
         };
@@ -43,7 +43,7 @@
 &kp TAB           &kp F1  &kp F2   &kp F3        &kp F4     &none        &none   &none          &trans    &none      &none    &kp DELETE
 &kp LEFT_CONTROL  &kp F5  &kp F6   &kp F7        &kp F8     &none        &none   &trans         &kp UP    &trans     &trans   &trans
 &kp LEFT_SHIFT    &kp F9  &kp F10  &kp F11       &kp F12    &none        &none   &kp LEFT       &kp DOWN  &kp RIGHT  &none    &kp ESC
-                                   &kp trans  &kp trans  &kp trans    &trans  &tog 2
+                                   &trans        &trans     &trans       &trans  &tog 2
                                                  &trans     &trans       &none
             >;
 
