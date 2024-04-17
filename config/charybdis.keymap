@@ -10,7 +10,7 @@
 };
 
 &tmv_coarse {
-    scale_mode = <multiplier>;
+    scale_mode = "multiplier";
     scale_factor = <2>;
 };
 
