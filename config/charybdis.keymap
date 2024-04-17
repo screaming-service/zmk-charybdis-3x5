@@ -9,6 +9,10 @@
     quick-tap-ms = <150>;
 };
 
+&tmv_coarse {
+    scale_factor = <0.2>;
+};
+
 / {
     keymap {
         compatible = "zmk,keymap";
