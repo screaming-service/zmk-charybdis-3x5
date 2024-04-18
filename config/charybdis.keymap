@@ -80,6 +80,49 @@
             key-positions = <28 29>; // F, G
             bindings = <&mkp RCLK>;
         };
+
+
+        // Enter/ESC ...
+        combo_enter {
+            timeout-ms = <25>;
+            key-positions = <20 32>; // I, K
+            bindings = <&kp ENTER>;
+        };
+        combo_shift_enter {
+            timeout-ms = <25>;
+            key-positions = <27,39>; // K, COMMA
+            bindings = <&kp LS(ENTER)>;
+        };
+        combo_tab {
+            timeout-ms = <25>;
+            key-positions = <26,38>; // J, M
+            bindings = <&kp TAB>;
+        };
+        combo_caps_word {
+            timeout-ms = <25>;
+            key-positions = <25,37>; // H, N
+            bindings = <&caps_word>;
+        };
+        combo_esc_1 {
+            timeout-ms = <25>;
+            key-positions = <28,40>; // F, V
+            bindings = <&kp ESC>;
+        };
+        combo_esc_2 {
+            timeout-ms = <25>;
+            key-positions = <26,33>; // S, L
+            bindings = <&kp ESC>;
+        };
+        combo_bspc {
+            timeout-ms = <25>;
+            key-positions = <16,28>; // R, F
+            bindings = <&kp BSPC>;
+        };
+        combo_del {
+            timeout-ms = <25>;
+            key-positions = <17,29>; // T, G
+            bindings = <&kp DEL>;
+        };
     };
 
     keymap {
