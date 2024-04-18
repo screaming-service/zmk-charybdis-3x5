@@ -172,6 +172,11 @@
             key-positions = <43 40>; // M, V
             bindings = <&sk LG(LA(LCTRL)))>;
         };
+        combo_hyper {
+            timeout-ms = <25>;
+            key-positions = <43 14>; // M, W
+            bindings = <&sk LG(LS(LA(LCTRL))))>;
+        };
     };
 
     keymap {
