@@ -29,6 +29,7 @@
                 ;
         };
     };
+
     behaviors {
         td0: tap_dance_0 {
             label = "test_td_123";
@@ -46,6 +47,16 @@
             quick_tap_ms = <0>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
+        };
+    };
+
+    combos {
+        compatible = "zmk,combos";
+        combo_ctrl_b {
+            label: "DE_CTRL_B";
+            timeout-ms = <25>;
+            key-positions = <15 27>;
+            bindings = <&ctrl_b>;
         };
     };
 
