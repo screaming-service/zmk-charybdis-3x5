@@ -19,6 +19,7 @@
 / {
     macros {
         ctrl_b: ctrl_b {
+            label = "CTRL_B";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
