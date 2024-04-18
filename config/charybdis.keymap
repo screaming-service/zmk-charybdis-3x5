@@ -73,12 +73,12 @@
         combo_left_click {
             timeout-ms = <25>;
             key-positions = <27 28>; // D, F
-            bindings = <&mo 5>;
+            bindings = <&mkp LCLK>;
         };
         combo_right_click {
             timeout-ms = <25>;
             key-positions = <28 29>; // F, G
-            bindings = <&mo 5>;
+            bindings = <&mkp RCLK>;
         };
     };
 
