@@ -9,6 +9,10 @@
     scale_factor = <3>;
 };
 
+&tsl {
+    scale_factor = <-10>; // Reverse "natural scroll"
+};
+
 &tmv_coarse {
     scale_mode = "multiplier";
     scale_factor = <2>;
@@ -123,7 +127,7 @@
         };
 
         // Lock screen (MacOS)
-        combo_mo_scroll {
+        combo_cmd_ctrl_q {
             timeout-ms = <25>;
             key-positions = <28 40 29 41>; // F, V, G, B
             bindings = <&kp LG(LC(Q))>;
