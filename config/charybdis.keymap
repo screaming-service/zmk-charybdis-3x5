@@ -17,6 +17,17 @@
 };
 
 / {
+    macros {
+        ctrl_b: ctrl_b {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LCTRL>
+                , <&macro_tap &kp B>
+                , <&macro_release &kp LCTRL>
+                ;
+        };
+    };
     behaviors {
         td0: tap_dance_0 {
             label = "test_td_123";
