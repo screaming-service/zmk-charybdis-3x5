@@ -5,10 +5,8 @@
 
 #define AS(keycode) &as LS(keycode) keycode     // Autoshift Macro
 
-&lt {
-    tapping-term-ms = <200>;
-    flavor = "balanced";
-    quick-tap-ms = <150>;
+&tmv_fine {
+    scale_factor = <3>;
 };
 
 &tmv_coarse {
