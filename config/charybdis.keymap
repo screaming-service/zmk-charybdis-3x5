@@ -55,12 +55,12 @@
 
         layer_1 {
             bindings = <
-&kp TILDE         &kp EXCLAMATION  &kp HASH      &kp DOLLAR    &kp DOLLAR    &kp PERCENT    &kp CARET      &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE
-&kp TAB           &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &td0           &kp GRAVE      &trans         &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp NON_US_BACKSLASH   &kp DEL
-&kp LEFT_CONTROL  &kp NUMBER_5     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &none          &kp PAGE_UP    &trans         &trans            &trans                &kp SEMICOLON          &kp SQT
-&kp LSHFT         &kp NUMBER_9     &kp NUMBER_0  &kp MINUS     &kp EQUAL     &none          &kp PAGE_DOWN  &trans         &kp COMMA         &kp PERIOD            &kp SLASH              &kp ESC
-                                                 &trans      &tog 1     &trans         &trans      &mo 3
-                                                               &none         &none          &trans
+&kp TILDE         &kp EXCLAMATION  &kp HASH      &kp DOLLAR    &kp DOLLAR        &kp PERCENT        &kp CARET      &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE
+&kp TAB           &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4      &td0               &kp GRAVE      AS(NUMBER_7)   AS(NUMBER_8)      AS(NUMBER_9)          AS(NUMBER_0)           &kp DEL
+&kp LEFT_CONTROL  &kp NUMBER_5     &kp NUMBER_6  &kp NUMBER_7  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PAGE_UP    AS(NUMBER_4)   AS(NUMBER_5)      AS(NUMBER_6)          &kp SEMICOLON          &kp SQT
+&kp LSHFT         &kp NUMBER_9     &kp NUMBER_0  &kp MINUS     &kp EQUAL         &none              &kp PAGE_DOWN  AS(NUMBER_1)   AS(NUMBER_2)      AS(NUMBER_3)          &kp SLASH              &kp ESC
+                                                 &trans        &tog 1            &trans             &trans         &mo 3
+                                                               &none             &none              &trans
             >;
         };
 
