@@ -90,17 +90,17 @@
         };
         combo_shift_enter {
             timeout-ms = <25>;
-            key-positions = <27 39>; // K, COMMA
+            key-positions = <32 44>; // K, COMMA
             bindings = <&kp LS(ENTER)>;
         };
         combo_tab {
             timeout-ms = <25>;
-            key-positions = <26 38>; // J, M
+            key-positions = <31 43>; // J, M
             bindings = <&kp TAB>;
         };
         combo_caps_word {
             timeout-ms = <25>;
-            key-positions = <25 37>; // H, N
+            key-positions = <30 42>; // H, N
             bindings = <&caps_word>;
         };
         combo_esc_1 {
