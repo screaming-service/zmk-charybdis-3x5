@@ -27,6 +27,7 @@
         };
 
         as: auto_shift {
+            label = "AUTO_SHIFT";
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping_term_ms = <145>;
