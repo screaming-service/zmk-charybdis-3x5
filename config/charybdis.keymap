@@ -52,10 +52,33 @@
 
     combos {
         compatible = "zmk,combos";
+        // Tmux
         combo_ctrl_b {
             timeout-ms = <25>;
-            key-positions = <15 27>;
-            bindings = <&ctrl_b>;
+            key-positions = <15 27>; // D, E
+            bindings = <&kp LC(B)>;
+        };
+
+        // Track ball and mouse clicks
+        combo_mo_scroll {
+            timeout-ms = <25>;
+            key-positions = <14 26>; // S, W
+            bindings = <&mo 4>;
+        };
+        combo_mo_tvm_fine {
+            timeout-ms = <25>;
+            key-positions = <21 33>; // O, L
+            bindings = <&mo 5>;
+        };
+        combo_left_click {
+            timeout-ms = <25>;
+            key-positions = <27 28>; // D, F
+            bindings = <&mo 5>;
+        };
+        combo_right_click {
+            timeout-ms = <25>;
+            key-positions = <28 29>; // F, G
+            bindings = <&mo 5>;
         };
     };
 
