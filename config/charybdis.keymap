@@ -127,11 +127,11 @@
         };
 
         // Lock screen (MacOS)
-        combo_cmd_ctrl_q {
+        /*combo_cmd_ctrl_q {
             timeout-ms = <25>;
             key-positions = <28 40 29 41>; // F, V, G, B
             bindings = <&kp LG(LC(Q))>;
-        };
+        };*/
         
         // Oneshot mods
         combo_shift {
