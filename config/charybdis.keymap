@@ -132,6 +132,12 @@
             key-positions = <28 40 29 41>; // F, V, G, B
             bindings = <&kp LG(LC(Q))>;
         };*/
+
+        combo_alt_space {
+            timeout-ms = <25>;
+            key-positions = <31 32>; // J, K
+            bindings = <&kp LALT(SPACE)>;
+        };
         
         // Oneshot mods
         combo_shift {
@@ -150,52 +156,52 @@
             bindings = <&sk LG(LSHFT)>;
         };
         combo_gui_alt {
-            timeout-ms = <25>;
+            timeout-ms = <40>;
             key-positions = <43 28>; // M, F
             bindings = <&sk LG(LALT)>;
         };
         combo_gui_ctrl {
-            timeout-ms = <25>;
+            timeout-ms = <40>;
             key-positions = <43 39>; // M, C
             bindings = <&sk LG(LCTRL)>;
         };
         combo_gui_shift_alt {
-            timeout-ms = <25>;
+            timeout-ms = <30>;
             key-positions = <43 27>; // M, D
             bindings = <&sk LG(LS(LALT))>;
         };
         combo_gui_shift_ctrl {
-            timeout-ms = <25>;
+            timeout-ms = <40>;
             key-positions = <43 38>; // M, X
             bindings = <&sk LG(LS(LCTRL))>;
         };
         combo_gui_alt_ctrl {
-            timeout-ms = <25>;
+            timeout-ms = <40>;
             key-positions = <43 40>; // M, V
             bindings = <&sk LG(LA(LCTRL))>;
         };
         combo_hyper {
-            timeout-ms = <25>;
+            timeout-ms = <40>;
             key-positions = <43 14>; // M, W
             bindings = <&sk LG(LS(LA(LCTRL)))>;
         };
         combo_meh {
-            timeout-ms = <25>;
+            timeout-ms = <40>;
             key-positions = <40 30>; // V, H
             bindings = <&sk LS(LA(LCTRL))>;
         };
         combo_alt_ctrl {
-            timeout-ms = <25>;
+            timeout-ms = <40>;
             key-positions = <40 31>; // V, J
             bindings = <&sk LA(LCTRL)>;
         };
         combo_alt_shift {
-            timeout-ms = <25>;
+            timeout-ms = <40>;
             key-positions = <40 32>; // V, K
             bindings = <&sk LA(LSHFT)>;
         };
         combo_shift_ctrl {
-            timeout-ms = <25>;
+            timeout-ms = <40>;
             key-positions = <40 33>; // V, L
             bindings = <&sk LC(LSHFT)>;
         };
