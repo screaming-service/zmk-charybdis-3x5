@@ -14,6 +14,10 @@
     scale_factor = <2>;
 };
 
+&tsl {
+    scale_factor = <4>;
+};
+
 / {
     macros {
         ctrl_b: ctrl_b {
