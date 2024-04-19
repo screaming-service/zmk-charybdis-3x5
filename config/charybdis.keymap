@@ -60,8 +60,9 @@
         ht_r: hold_tap_at_r {
             label = "HOLD_TAP_AT_R";
             compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <0>;
             tapping_term_ms = <155>;
-            bindings = <&tx_c>, <vi_w>;
+            bindings = <&tx_c>, <&vi_w>;
         };
     };
 
