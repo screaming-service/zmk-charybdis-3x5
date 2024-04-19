@@ -253,7 +253,7 @@
         layer_2 {
             bindings = <
 &kp F12           &kp F1  &kp F2   &kp F3        &kp F4     &kp F5       &kp F6    &kp F7       &kp F8    &kp F9     &kp F10  &kp F11
-&kp TAB           &kp F7  &kp F8   &kp F9        &ht0 tx_c B      &none        &kp F10   &kp F11      &kp F12   &none      &none    &kp DELETE
+&kp TAB           &kp F7  &kp F8   &kp F9        &ht0 &tx_c B      &none        &kp F10   &kp F11      &kp F12   &none      &none    &kp DELETE
 &kp LEFT_CONTROL  &kp F4  &kp F5   &kp F6        &trans     &none        &kp LEFT  &kp DOWN     &kp UP    &kp RIGHT  &trans   &trans
 &kp LEFT_SHIFT    &kp F1  &kp F2   &kp F3        &trans     &none        &kp HOME  &kp PG_DN    &kp PG_UP &kp END    &none    &kp ESC
                                    &trans        &mo 3      &trans       &trans  &tog 2
