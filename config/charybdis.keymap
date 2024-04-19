@@ -61,6 +61,7 @@
             label = "HOLD_TAP_AT_R";
             compatible = "zmk,behavior-hold-tap";
             tapping_term_ms = <155>;
+            #binding-cells = <2>;
             bindings = <&tx_c>, <&vi_w>;
         };
     };
