@@ -20,7 +20,7 @@
 
 / {
     macros {
-        vi_w: vim_write {
+        vi_w: vi_w {
             label = "VIM_SAVE";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -28,7 +28,7 @@
                 = <&macro_tap &kp ESC &kp COLON &kp W &kp LS(N1) &kp ENTER>
                 ;
         };
-        tx_c: tmux_copy_mode {
+        tx_c: tx_c {
             label = "TMUX_COPY_MODE";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -36,7 +36,7 @@
                 = <&macro_tap &kp LC(B) &kp LBKT>
                 ;
         };
-        hy_p: hyper_p {
+        hy_p: hy_p {
             label = "HYPER_P";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -44,7 +44,7 @@
                 = <&macro_tap &kp LG(LA(LS(LC(P))))>
                 ;
         };
-        gsc4: cmd_shift_ctrl_4 {
+        gsc4: gsc4 {
             label = "MAC_OS_SCREENSHOT_4";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
