@@ -15,7 +15,7 @@
 };
 
 &tsl {
-    scale_factor = <16>;
+    scale_factor = <12>;
 };
 
 / {
