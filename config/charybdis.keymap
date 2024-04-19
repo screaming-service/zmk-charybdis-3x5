@@ -20,14 +20,20 @@
 
 / {
     macros {
-        ctrl_b: ctrl_b {
-            label = "CTRL_B";
+        vi_w: vim_write {
+            label = "VIM_SAVE";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_press &kp LCTRL>
-                , <&macro_tap &kp B>
-                , <&macro_release &kp LCTRL>
+                = <&macro_tap &kp ESC &kp COLON &kp W &kp LS(N1)>
+                ;
+        };
+        tx_c: tmux_copy_mode {
+            label = "TMUX_COPY_MODE";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_tap &kp LC(B) &kp LBKT>
                 ;
         };
     };
@@ -49,6 +55,12 @@
             quick_tap_ms = <120>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
+        };
+
+        ht0: hold_tap_0 {
+            label = "HOLD_TAP_0";
+            compatible = "zmk,behavior-hold-tap";
+            tapping_term_ms = <155>;
         };
     };
 
