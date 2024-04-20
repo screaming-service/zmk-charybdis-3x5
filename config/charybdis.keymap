@@ -11,11 +11,11 @@
 
 &tmv_coarse {
     scale_mode = "multiplier";
-    scale_factor = <2>;
+    scale_factor = <3>;
 };
 
 &tsl {
-    scale_factor = <12>;
+    scale_factor = <8>;
 };
 
 / {
@@ -119,12 +119,6 @@
             quick_tap_ms = <120>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <
-                13 14 15 16 17 18 19 20 21 22
-                25 26 27 28 29 30 31 32 33 34
-                37 38 39 40 41 42 43 44 45 46
-                49 52
-            >;
         };
 
         ht_r: hold_tap_at_r {
