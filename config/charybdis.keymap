@@ -103,12 +103,12 @@
     };
 
     behaviors {
-        td0: tap_dance_0 {
-            label = "test_td_123";
+        tdl4: tap_dance_toggle_scroll {
+            label = "TD_TOGGLE_SCROLL";
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <175>;
-            bindings = <&kp N1>, <&kp N2>, <&kp N3>;
+            bindings = <&mo 4>, <&tog 4>;
         };
 
         as: auto_shift {
@@ -175,7 +175,7 @@
         combo_mo_scroll {
             timeout-ms = <25>;
             key-positions = <14 26>; // S, W
-            bindings = <&mo 4>;
+            bindings = <&tdl4>; //<&mo 4>;
         };
         combo_mo_tvm_fine {
             timeout-ms = <25>;
@@ -191,6 +191,11 @@
             timeout-ms = <25>;
             key-positions = <28 29>; // F, G
             bindings = <&mkp RCLK>;
+        };
+        combo_tog_3 {
+            timeout-ms = <25>;
+            key-positions = <26 38>; // S, X
+            bindings = <&tog 3>;
         };
 
 
@@ -246,7 +251,7 @@
         combo_alt_space {
             timeout-ms = <25>;
             key-positions = <31 32>; // J, K
-            bindings = <&kp LALT(SPACE)>;
+            bindings = <&kp LA(SPACE)>;
         };
         
         // Oneshot mods
