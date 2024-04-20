@@ -111,6 +111,14 @@
             bindings = <&mo 4>, <&tog 4>;
         };
 
+        tdl5: tap_dance_toggle_sniping {
+            label = "TD_TOGGLE_SNIPING";
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <175>;
+            bindings = <&mo 5>, <&tog 5>;
+        };
+
         as: auto_shift {
             label = "AUTO_SHIFT";
             compatible = "zmk,behavior-hold-tap";
@@ -180,7 +188,7 @@
         combo_mo_tvm_fine {
             timeout-ms = <25>;
             key-positions = <21 33>; // O, L
-            bindings = <&mo 5>;
+            bindings = <&tdl5>; //<&mo 5>;
         };
         combo_left_click {
             timeout-ms = <25>;
@@ -252,6 +260,18 @@
             timeout-ms = <25>;
             key-positions = <31 32>; // J, K
             bindings = <&kp LA(SPACE)>;
+        };
+
+        combo_ctrl_alt_space {
+            timeout-ms = <25>;
+            key-positions = <29 41>; // G, B
+            bindings = <&kp LA(LC(SPACE))>;
+        };
+
+        combo_ctrl_alt_shift_space {
+            timeout-ms = <25>;
+            key-positions = <33 45>; // L, .(DOT)
+            bindings = <&kp LA(LC(LS(SPACE)))>;
         };
         
         // Oneshot mods
