@@ -123,8 +123,8 @@
             label = "AUTO_SHIFT";
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping_term_ms = <145>;
-            quick_tap_ms = <120>;
+            tapping_term_ms = <155>;
+            quick_tap_ms = <154>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
