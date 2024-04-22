@@ -445,7 +445,7 @@
         Mouse {
             bindings = <
 &none        &none         &none         &none         &none      &none         &none        &none        &none         &none         &none         &none
-&none        &trans        &trans        &mo 5         &none      &none         &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE    &none         &none         &none
+&none        &trans        &trans        &mo 5         &none      &none         &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE    &none         &tdp0         &none
 &none        &trans        &trans        &mo 4         &mkp LCLK  &mkp RCLK     &none        &none        &trans        &trans        &trans        &none
 &bootloader  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 3  &none      &bt BT_CLR    &none        &none        &none         &none         &trans        &bootloader
                                          &trans        &tog 3     &trans        &trans       &tog 3
