@@ -101,15 +101,30 @@
                 ;
         };
         pri0: pri0 {
-            label = "PRIVATE_KEY_SEQ";
+            label = "PRIVATE_KEY_SEQ_0";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             wait-ms = <40>;
             tap-ms = <40>;
             bindings
-                = <&macro_tap &kp LS(Z) &kp C &kp T &kp D &kp L &kp U &kp M &kp N &kp K >
+                = <&macro_tap 
+                    &kp LS(Z) &kp C &kp T &kp D &kp L &kp A &kp M &kp N &kp U 
+                    &kp X &kp D &kp E &kp X &kp D &kp Z &kp O &kp G &kp D &kp M 
+                    &kp Z>
                 ;
-        }
+        };
+        pri1: pri1 {
+            label = "PRIVATE_KEY_SEQ_1";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            wait-ms = <40>;
+            tap-ms = <40>;
+            bindings
+                = <&macro_tap &kp BSPC>
+                , <&macro_wait_time 3500>
+                , <&pri0>
+                ;
+        };
     };
 
     behaviors {
