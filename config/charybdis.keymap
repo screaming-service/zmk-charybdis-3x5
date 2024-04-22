@@ -298,6 +298,12 @@
             key-positions = <33 45>; // L, .(DOT)
             bindings = <&kp LA(LC(LS(SPACE)))>;
         };
+
+        combo_private_seq_1 {
+            timeout-ms = <25>;
+            key-positions = <30 31 42 43>; // H, J, N, M
+            bindings = <&kp pri1>;
+        };
         
         // Oneshot mods
         combo_shift {
